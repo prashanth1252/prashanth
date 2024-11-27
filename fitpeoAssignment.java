@@ -79,7 +79,7 @@ public class fitpeoAssignment {
         } finally {
             
             if (driver != null) {
-                //driver.quit();
+                driver.quit();
             }
         } 
     } 
