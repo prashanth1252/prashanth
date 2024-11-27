@@ -60,7 +60,7 @@ public class fitpeoAssignment {
 
             String[] cptCodes = {"CPT-99091", "CPT-99453", "CPT-99454", "CPT-99474"};
             for (String code : cptCodes) {
-                WebElement checkbox = driver.findElement(By.xpath("(//span//input[@type='checkbox']) [1]")); 
+                WebElement checkbox = driver.findElement(By.xpath("(//input[@type='checkbox']) [1]")); 
                if (!checkbox.isSelected()) {
                     checkbox.click();
                 }
